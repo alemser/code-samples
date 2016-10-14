@@ -1,11 +1,8 @@
-package core.java.concurrency;
+package core.java.concurrency.page;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
-
-import core.java.concurrency.page.ImageData;
-import core.java.concurrency.page.ImageInfo;
 
 /**
  * Simulation of a page rendering, including images, using Futures and the CompletableFuture.

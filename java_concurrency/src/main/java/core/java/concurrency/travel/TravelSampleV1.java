@@ -1,4 +1,4 @@
-package core.java.concurrency;
+package core.java.concurrency.travel;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -7,14 +7,6 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
-
-import core.java.concurrency.travel.AerLingus;
-import core.java.concurrency.travel.Hertz;
-import core.java.concurrency.travel.Ibis;
-import core.java.concurrency.travel.Lufthansa;
-import core.java.concurrency.travel.Ryanair;
-import core.java.concurrency.travel.ServiceSupplier;
-import core.java.concurrency.travel.TripPlan;
 
 /**
  * Example of combining the completable futures.

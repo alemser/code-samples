@@ -1,4 +1,4 @@
-package core.java.concurrency;
+package core.java.concurrency.page;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,9 +9,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.function.Function;
-
-import core.java.concurrency.page.ImageData;
-import core.java.concurrency.page.ImageInfo;
 
 /**
  * Based on article: https://www.infoq.com/articles/Functional-Style-Callbacks-Using-CompletableFuture.
