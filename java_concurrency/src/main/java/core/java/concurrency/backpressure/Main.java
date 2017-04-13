@@ -15,7 +15,6 @@ public class Main {
         final List<Worker<String>> list = new ArrayList<>();
         list.add(w1);
         list.add(w2);
-
         try (final Production<String> p = new Production<>(list)) {
             for (int i = 1; i <= 100; i++) {
                 p.add("Item " + i);
